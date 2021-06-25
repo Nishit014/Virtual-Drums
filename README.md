@@ -8,7 +8,7 @@ This project uses OpenCV to create a virtual drum set which plays corresponding 
 
 Cloning this repository:
 ```
-git clone 
+git clone https://github.com/Nishit014/Virtual-Drums.git
 ```
 Install the required packages in your environment by using pip.
 ```
