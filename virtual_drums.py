@@ -24,13 +24,13 @@ def detect_area(frame,sound):
     return mask
 
 mixer.init()
-drum_snare=mixer.Sound('/Users/mehrotra/python_program/open_cv/virtual-drums-master/sounds/snare_1.wav')
-drum_hat=mixer.Sound('/Users/mehrotra/python_program/open_cv/virtual-drums-master/sounds/high_hat_1.ogg')
-drum_snare1=mixer.Sound('/Users/mehrotra/python_program/open_cv/virtual-drums-master/sounds/snare_2.wav')
-drum_hat1=mixer.Sound('/Users/mehrotra/python_program/open_cv/virtual-drums-master/sounds/high_hat_2.wav')
+drum_snare=mixer.Sound('.drums/snare_1.wav')
+drum_hat=mixer.Sound('.drums/high_hat_1.ogg')
+drum_snare1=mixer.Sound('.drums/snare_2.wav')
+drum_hat1=mixer.Sound('.drums/high_hat_2.wav')
 
 cap=cv2.VideoCapture(0)
-d1=cv2.resize(cv2.imread('/Users/mehrotra/python_program/open_cv/my_virtual_drums/drums/df.jpeg'),(0,0),fx=0.5,fy=0.2)
+d1=cv2.resize(cv2.imread('.drums/df.jpeg'),(0,0),fx=0.5,fy=0.2)
 
 greenl=(25,52,72)
 greenu=(102,255,255)
