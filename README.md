@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Open the project folder after installing requirements and run:
 ```
-vitual_drums.py
+virtual_drums.py
 ```
 
 # Contributing
