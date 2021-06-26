@@ -1,10 +1,10 @@
-# Virtual-Drums
+# Virtual-Drums 🥁 
 
-Virtual-Drums is basically a virtual drums set that can be played anywhere with help of just 1 green colored stick.
+Virtual-Drums is basically a virtual drum set that can be played anywhere with help of just 1 green colored stick.
 
 This project uses OpenCV to create a virtual drum set which plays corresponding drum beats with the help of color detection.
 
-# Tech Stacks
+# Tech Stacks 💻
 **Python 3.7**
 
 # Prerequisites
@@ -34,7 +34,7 @@ Open the project folder after installing requirements and run:
 virtual_drums.py
 ```
 
-# Contributing
+# Contributing 
 You are free to use this code for any purpose. If you have built anything interesting, contribute it back to this project. You could add more drums or improve the overall performance.
 
 # Note  
